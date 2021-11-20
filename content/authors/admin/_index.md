@@ -29,7 +29,7 @@ education:
     institution: Amrita School of Engineering, Amritapuri
     year: 2025
   - course: All India Senior School Certificate Examination
-    institution: Delhi Public School, Allahabad
+    institution: Delhi Public School, Prayagraj
     year: 2021
 
 # Social/Academic Networking
@@ -39,22 +39,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
-- icon: twitter
+  link: 'mailto:yasharora102@gmail.com'
+- icon: instagram
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-  label: Follow me on Twitter
+  link: https://www.instagram.com/imyarora/
+  label: Follow me on Instagram
   display:
     header: true
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+#   icon_pack: fas
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/yasharora102
+# - icon: linkedin
+#   icon_pack: fab
+#   link: https://www.linkedin.com/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -64,14 +64,13 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "yasharora102@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hey everyone I'm Yash from Prayagraj. I'm form Amrita University, Amritapuri and an aspiring amFOSS member.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

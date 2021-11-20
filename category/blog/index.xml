@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yash Arora</title>
-    <link>https://academic-demo.netlify.app/author/yash-arora/</link>
-      <atom:link href="https://academic-demo.netlify.app/author/yash-arora/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yash Arora</description>
+    <title>Blog | Yash Arora</title>
+    <link>https://academic-demo.netlify.app/category/blog/</link>
+      <atom:link href="https://academic-demo.netlify.app/category/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://academic-demo.netlify.app/author/yash-arora/avatar_hu61eca51fff1ecd09c78e6ef8cdaaab12_51550_270x270_fill_q75_lanczos_center.jpeg</url>
-      <title>Yash Arora</title>
-      <link>https://academic-demo.netlify.app/author/yash-arora/</link>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Blog</title>
+      <link>https://academic-demo.netlify.app/category/blog/</link>
     </image>
     
     <item>
@@ -51,58 +51,6 @@
 &lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
 &lt;p&gt;This section comprises the hardships I had to face. First of all even though I said there&amp;rsquo;s something for everyone, there&amp;rsquo;s nothing for slackers. So get that to your head, you&amp;rsquo;re going nowhere if you just laze out. I&amp;rsquo;m stating this from my personal experience.
 Upon seeing task-05, I thought of it as something I could complete later but after a lot of time had already passed I found it difficult to complete. After completing it, I was mentally exhausted and wasn&amp;rsquo;t to focus on any other work for the day. So hey future tryouts if you&amp;rsquo;re reading this which I know some would, treat each and every &lt;strong&gt;main&lt;/strong&gt; task equally. The most fun task to do was &lt;strong&gt;Task-02&lt;/strong&gt; as putting the co-ordinates in Google Maps was very lively. The most frustraing among all was the &lt;strong&gt;Golang Scrapper (Task-07)&lt;/strong&gt; used realising to use &lt;strong&gt;geziyor&lt;/strong&gt; after using &lt;strong&gt;colly&lt;/strong&gt; for straight 4 days was really exhausting. Now a note for future amFOSS aspirants - if you&amp;rsquo;re reading this do organise your repo from the first day itslef (it really helps on the deadline day)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>https://academic-demo.netlify.app/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>https://academic-demo.netlify.app/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>https://academic-demo.netlify.app/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

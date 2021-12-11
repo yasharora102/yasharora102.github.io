@@ -12,6 +12,8 @@ role: Fresher EAC
 organizations:
 - name: Amrita School of Engineering, Amritapuri
   url: https://www.amrita.edu/
+- name: amFOSS
+  url: https://amfoss.in/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -20,7 +22,7 @@ organizations:
 interests:
 - Artificial Intelligence
 - Machine Learning
-- Computational Vision
+- Computer Vision
 
 # Education to show in About widget
 education:
@@ -40,10 +42,10 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:yasharora102@gmail.com'
-- icon: instagram
+- icon: twitter
   icon_pack: fab
-  link: https://www.instagram.com/imyarora/
-  label: Follow me on Instagram
+  link: https://twitter.com/yasharora102
+  label: Follow me on Twitter
   display:
     header: true
 # - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -70,7 +72,7 @@ email: "yasharora102@gmail.com"
 highlight_name: true
 ---
 
-Hey everyone I'm Yash from Prayagraj. I'm form Amrita University, Amritapuri and an aspiring amFOSS member.
+Hey everyone I'm Yash Arora. A fresher from Amrita University, Amritapuri. Member at amFOSS.
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

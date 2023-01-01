@@ -6,7 +6,7 @@ title: Yash Arora
 superuser: true
 
 # Role/position/tagline
-role: Fresher EAC
+role: Sophomore EAC
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -20,7 +20,7 @@ organizations:
 interests:
 - Artificial Intelligence
 - Machine Learning
-- Computational Vision
+- Computer Vision
 
 # Education to show in About widget
 education:
@@ -40,10 +40,10 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:yasharora102@gmail.com'
-- icon: instagram
+- icon: twitter
   icon_pack: fab
-  link: https://www.instagram.com/imyarora/
-  label: Follow me on Instagram
+  link: https://www.twitter.com/yasharora102/
+  label: Follow me on Twitter
   display:
     header: true
 # - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -52,9 +52,11 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yasharora102
-# - icon: linkedin
-#   icon_pack: fab
-#   link: https://www.linkedin.com/
+- icon: linkedin
+  icon_pack: fab
+  link: 'https://www.linkedin.com/in/yasharora102/'
+  display:
+    header: true
 
 # Link to a PDF of your resume/CV from the About widget.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -70,7 +72,7 @@ email: "yasharora102@gmail.com"
 highlight_name: true
 ---
 
-Hey everyone I'm Yash from Prayagraj. I'm form Amrita University, Amritapuri and an aspiring amFOSS member.
+Hey everyone I'm Yash from Prayagraj. I'm from Amrita School of Engineering, Amritapuri.
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

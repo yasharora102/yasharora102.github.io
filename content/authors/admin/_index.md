@@ -52,9 +52,18 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yasharora102
+  label: My GitHub
+  display:
+    header: true
 - icon: linkedin
   icon_pack: fab
   link: 'https://www.linkedin.com/in/yasharora102/'
+  label: My LinkedIn
+  display:
+    header: true
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
   display:
     header: true
 

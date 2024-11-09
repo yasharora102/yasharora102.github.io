@@ -13,10 +13,42 @@
     </image>
     
     <item>
-      <title>amFOSS tasks</title>
-      <link>https://academic-demo.netlify.app/project/external-project/</link>
+      <title>CineBot</title>
+      <link>https://academic-demo.netlify.app/project/cinebot/cin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/project/external-project/</guid>
+      <guid>https://academic-demo.netlify.app/project/cinebot/cin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV_models</title>
+      <link>https://academic-demo.netlify.app/project/cv_models/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/project/cv_models/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Colorization API</title>
+      <link>https://academic-demo.netlify.app/project/02_ima/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/project/02_ima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inventory Management System</title>
+      <link>https://academic-demo.netlify.app/project/ims/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/project/ims/project1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UnifyFormer</title>
+      <link>https://academic-demo.netlify.app/project/01_unifyformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/project/01_unifyformer/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@ title: Yash Arora
 superuser: true
 
 # Role/position/tagline
-role: Sophomore EAC
+role: Undergrad EAC
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -81,7 +81,8 @@ email: "yasharora102@gmail.com"
 highlight_name: true
 ---
 
-Hey everyone I'm Yash from Prayagraj. I'm from Amrita School of Engineering, Amritapuri.
+
+I'm Yash Arora, a B.Tech student in Electronics and Computer Engineering at [Amrita Vishwa Vidyapeetham](https://www.amrita.edu/), Kerala. Recently, I achieved 3rd place in the NTIRE 2024 Blind Image Compression Challenge with my team, Titans, developing the UnifyFormer architecture to enhance JPEG decompression. I also interned at the [Computational Imaging Lab (CI Lab)](https://www.ee.iitm.ac.in/comp_photolab/) at [IIT Madras](https://www.iitm.ac.in/), working under [Prof. Kaushik Mitra](https://www.ee.iitm.ac.in/kmitra/) on deep-learning models for image deflaring. My journey in computer vision includes diverse projects like implementing state-of-the-art models and developing applications for planetary image processing. I'm excited to keep pushing the boundaries in AI and computer vision!
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

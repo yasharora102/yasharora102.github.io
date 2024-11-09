@@ -68,7 +68,7 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
+date_format: ''
 time_format: '3:04 PM'
 address_format: en-us
 
@@ -93,11 +93,11 @@ edit_page:
 show_related:
   book: true
   page: false
-  post: true
+  post: false
   project: true
   publication: true
   event: true
-reading_time: true
+reading_time: false
 section_pager: false
 docs_section_pager: true
 sharing: true
@@ -125,7 +125,7 @@ breadcrumb:
 comments:
   provider: ''
   commentable:
-    post: true
+    post: false
     book: true
     project: true
     publication: true

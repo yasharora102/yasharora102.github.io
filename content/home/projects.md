@@ -27,13 +27,15 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: amFOSS
-    tag: amFOSS
+  - name: Competition
+    tag: Competition
+  - name: Project
+    tag: Project
   
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '5'
 
   # Toggle between the various page layout types.
   #   1 = List

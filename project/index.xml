@@ -5,12 +5,36 @@
     <link>https://academic-demo.netlify.app/project/</link>
       <atom:link href="https://academic-demo.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 05:29:59 +0530</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hu7706b1db81251e671fce5a7b42c84e87_39138_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://academic-demo.netlify.app/project/</link>
     </image>
+    
+    <item>
+      <title>UnifyFormer</title>
+      <link>https://academic-demo.netlify.app/project/01_unifyformer/</link>
+      <pubDate>Thu, 01 Jan 1970 05:29:59 +0530</pubDate>
+      <guid>https://academic-demo.netlify.app/project/01_unifyformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Colorization API</title>
+      <link>https://academic-demo.netlify.app/project/02_ima/</link>
+      <pubDate>Thu, 01 Jan 1970 05:29:58 +0530</pubDate>
+      <guid>https://academic-demo.netlify.app/project/02_ima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV_models</title>
+      <link>https://academic-demo.netlify.app/project/cv_models/cv/</link>
+      <pubDate>Thu, 01 Jan 1970 05:29:57 +0530</pubDate>
+      <guid>https://academic-demo.netlify.app/project/cv_models/cv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CineBot</title>
@@ -21,34 +45,10 @@
     </item>
     
     <item>
-      <title>CV_models</title>
-      <link>https://academic-demo.netlify.app/project/cv_models/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/project/cv_models/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image Colorization API</title>
-      <link>https://academic-demo.netlify.app/project/02_ima/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/project/02_ima/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Inventory Management System</title>
       <link>https://academic-demo.netlify.app/project/ims/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/project/ims/project1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UnifyFormer</title>
-      <link>https://academic-demo.netlify.app/project/01_unifyformer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/project/01_unifyformer/</guid>
       <description></description>
     </item>
     

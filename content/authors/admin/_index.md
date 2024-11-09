@@ -6,7 +6,7 @@ title: Yash Arora
 superuser: true
 
 # Role/position/tagline
-role: Undergrad EAC
+role: Undergrad Electronics and Computer Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:

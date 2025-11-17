@@ -84,15 +84,6 @@ const achievementsData = [
 
 const publicationsData = [
   {
-    title: "What is there in an Indian Thali?",
-    authors: "Y Arora, A Arun, CV Jawahar",
-    description:
-      "ICVGIP 2025. A project on Zero-Shot Recognition and Segmentation of Indian food items for automated nutrition estimation in culturally diverse meals.",
-    imageUrl: "assets/food-scanner-logo.png",
-    alt: "Indian Thali Publication",
-    links: [{ name: "Project Page", icon: "link", url: "https://cvit.iiit.ac.in/research/projects/cvit-projects/indian_thali#" }],
-  },
-  {
     title: "HealthGuard Al: Predictive Diagnosis and Smart Care Solutions",
     authors: "Y Arora, H Rohra, D Das, S Uppaluru, M Rashmi",
     description: "ICCCNT 2025 (Feb 2025).",
@@ -103,12 +94,6 @@ const publicationsData = [
 ];
 
 const projectsData = [
-  {
-    title: "Indian Thali Food Scanner",
-    description:
-      "Project page for 'What is there in an Indian Thali?' ICVGIP 2025 publication.",
-    githubUrl: "https://github.com/yasharora102/Indian_Thali",
-  },
   {
     title: "UnifyFormer",
     description:

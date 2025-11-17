@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setupMobileMenu();
 
     // Enhancements
-    setupThemeToggle(); // <-- NEW
+    setupThemeToggle(); // <-- Runs the corrected logic
     setupScrollReveal();
     setupScrollSpy();
     setupBackToTop();
@@ -63,14 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function initTheme() {
+      // CORRECTED LOGIC: Default to light.
+      // Only switch to dark if the user has EXPLICITLY saved "dark" in localStorage.
       const savedTheme = localStorage.getItem("theme");
-      const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      
-      // Light mode is default (isDark = false)
-      // We switch to dark if:
-      // 1. User has explicitly saved "dark"
-      // 2. User has no saved theme, but their system prefers dark
-      const isDark = savedTheme === "dark" || (savedTheme === null && systemPrefersDark);
+      const isDark = savedTheme === "dark"; // This is now the only condition
       
       applyTheme(isDark);
     }
@@ -78,13 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleDesktop.addEventListener("change", (e) => applyTheme(e.target.checked));
     toggleMobile.addEventListener("change", (e) => applyTheme(e.target.checked));
 
-    // Listen for system changes (if user hasn't set a preference)
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-      if (localStorage.getItem("theme") === null) {
-        applyTheme(e.matches);
-      }
-    });
-
+    // We no longer need to listen for system changes,
+    // as the default is now explicitly light mode, not "system".
+    
     initTheme();
   }
 

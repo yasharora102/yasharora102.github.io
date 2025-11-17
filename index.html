@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
-  <head>
+<html lang="en"> <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yash Arora</title>
 
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Feather Icons CDN -->
     <script src="https://unpkg.com/feather-icons"></script>
 
-    <!-- Google Font (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,43 +15,43 @@
       rel="stylesheet"
     />
 
-    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="shortcut icon" href="assets/favicon/favicon.ico">
 
-    <!-- PWA and theme settings -->
-    <meta name="theme-color" content="#121212">
+    <meta name="theme-color" content="#FFFFFF">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <!-- Tailwind Config (kept separate for maintainability) -->
     <script src="js/tailwind-config.js" defer></script>
 
-    <!-- Site styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body class="bg-dark-bg text-dark-text">
-    <!-- Header & Navigation -->
-    <header class="sticky top-0 z-50 w-full backdrop-blur-md border-b border-dark-border animated-header">
+  <body class="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-colors duration-300">
+    <header class="sticky top-0 z-50 w-full backdrop-blur-md border-b border-light-border dark:border-dark-border animated-header">
       <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
-          <!-- Logo/Name -->
-          <a href="#" id="nav-name" class="text-2xl font-bold text-dark-heading"></a>
+          <a href="#" id="nav-name" class="text-2xl font-bold text-light-heading dark:text-dark-heading"></a>
 
-          <!-- Desktop Navigation -->
           <div id="desktop-nav-links" class="hidden md:flex items-center space-x-8"></div>
 
-          <!-- Desktop Social Icons -->
-          <div id="desktop-social-links" class="hidden md:flex items-center space-x-5"></div>
+          <div class="hidden md:flex items-center space-x-5">
+            <div id="desktop-social-links" class="flex items-center space-x-5"></div>
+            <label for="theme-toggle-desktop" class="theme-toggle-label">
+              <input type="checkbox" id="theme-toggle-desktop" class="theme-toggle-input">
+              <span class="theme-toggle-slider">
+                <i data-feather="sun" class="theme-toggle-icon-sun"></i>
+                <i data-feather="moon" class="theme-toggle-icon-moon"></i>
+              </span>
+            </label>
+          </div>
 
-          <!-- Mobile Menu Button -->
           <button
             id="menu-btn"
-            class="md:hidden p-2 rounded-md text-dark-text hover:text-dark-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-dark-primary"
+            class="md:hidden p-2 rounded-md text-light-text dark:text-dark-text hover:text-light-primary dark:hover:text-dark-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-light-primary dark:focus:ring-dark-primary"
             aria-label="Toggle menu"
           >
             <i data-feather="menu" class="w-6 h-6"></i>
@@ -63,37 +59,41 @@
         </div>
       </nav>
 
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="hidden md:hidden bg-dark-card border-t border-dark-border">
+      <div id="mobile-menu" class="hidden md:hidden bg-light-card dark:bg-dark-card border-t border-light-border dark:border-dark-border">
         <div class="px-4 pt-4 pb-6 space-y-4">
           <div id="mobile-nav-links"></div>
-          <div id="mobile-social-links" class="flex items-center space-x-5 pt-4 border-t border-dark-border"></div>
+          <div class="flex justify-between items-center pt-4 border-t border-light-border dark:border-dark-border">
+            <div id="mobile-social-links" class="flex items-center space-x-5"></div>
+            <label for="theme-toggle-mobile" class="theme-toggle-label">
+              <input type="checkbox" id="theme-toggle-mobile" class="theme-toggle-input">
+              <span class="theme-toggle-slider">
+                <i data-feather="sun" class="theme-toggle-icon-sun"></i>
+                <i data-feather="moon" class="theme-toggle-icon-moon"></i>
+              </span>
+            </label>
+          </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
     <main id="app-container" class="container mx-auto px-4 sm:px-6 lg:px-8 py-16"></main>
 
-    <!-- Back to top button -->
-    <button id="back-to-top" class="hidden fixed bottom-6 right-6 rounded-full px-3 py-2 bg-dark-card border border-dark-border shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-dark-primary">
+    <button id="back-to-top" class="hidden fixed bottom-6 right-6 rounded-full p-2 bg-light-card dark:bg-dark-card border border-light-border dark:border-dark-border shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-light-primary dark:focus:ring-dark-primary text-light-heading dark:text-dark-heading">
       <i data-feather="arrow-up" class="w-5 h-5"></i>
     </button>
 
-    <!-- Footer -->
-    <footer class="mt-24 border-t border-dark-border py-10 text-center">
-      <p class="text-gray-400">
+    <footer class="mt-24 border-t border-light-border dark:border-dark-border py-10 text-center">
+      <p class="text-gray-500 dark:text-gray-400">
         &copy; <span id="current-year"></span> <span id="footer-name"></span>. All rights reserved.
       </p>
-      <p class="text-gray-500 text-sm mt-2">
+      <p class="text-gray-600 dark:text-gray-500 text-sm mt-2">
         Built with
-        <a href="https://tailwindcss.com/" class="hover:text-dark-primary" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
+        <a href="https://tailwindcss.com/" class="hover:text-light-primary dark:hover:text-dark-primary" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
         &
-        <a href="https://feathericons.com/" class="hover:text-dark-primary" target="_blank" rel="noopener noreferrer">Feather Icons</a>.
+        <a href="https://feathericons.com/" class="hover:text-light-primary dark:hover:text-dark-primary" target="_blank" rel="noopener noreferrer">Feather Icons</a>.
       </p>
     </footer>
 
-    <!-- DATA & APP -->
     <script src="js/data.js"></script>
     <script src="js/render.js"></script>
     <script src="js/animations.js"></script>

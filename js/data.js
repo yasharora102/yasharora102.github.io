@@ -1,4 +1,3 @@
-
 /* All site content is centralized here for easy updates */
 const profileData = {
   name: "Yash Arora",
@@ -8,14 +7,14 @@ const profileData = {
   imageUrl: "assets/avatar.jpg",
   // aboutMe:
   //   "I am a B.Tech graduate in Electronics and Computer Engineering from Amrita Vishwa Vidyapeetham (CGPA 9.26/10). My work focuses on Computer Vision, including contributions to Zero-Shot Recognition for nutrition estimation during my research fellowship at IIIT Hyderabad. Previously, I interned at IIT Madras, developing Vision Mamba models for image deflaring. I also achieved 3rd place in the NTIRE 2024 Blind Compressed Image Enhancement Challenge.",
-  aboutMe: `I am a B.Tech graduate in <a href="https://www.amrita.edu/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">Amrita Vishwa Vidyapeetham, Amritapuri</a> (CGPA 9.26/10). 
+  aboutMe: `I am a B.Tech graduate in <a href="https://www.amrita.edu/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">Amrita Vishwa Vidyapeetham, Amritapuri</a> (CGPA 9.26/10). 
   My work focuses on Computer Vision, including contributions to Zero-Shot Recognition for nutrition estimation during my research fellowship at 
-  <a href="https://www.iiit.ac.in/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">IIIT Hyderabad</a> in the 
-  <a href="https://cvit.iiit.ac.in/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">CVIT Lab</a> 
-  mentored by <a href="https://www.iiit.ac.in/faculty/jawahar-c-v/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">Prof. C.V. Jawahar</a>. 
-  Previously, I interned at <a href="https://www.iitm.ac.in/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">IIT Madras</a> 
-  in the <a href="https://www.ee.iitm.ac.in/comp_photolab/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">Computational Imaging Lab (CI Lab)</a> 
-  under the mentorship of <a href="https://www.ee.iitm.ac.in/kmitra/" target="_blank" rel="noopener noreferrer" class="text-dark-primary hover:underline">Dr. Kaushik Mitra</a>. 
+  <a href="https://www.iiit.ac.in/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">IIIT Hyderabad</a> in the 
+  <a href="https://cvit.iiit.ac.in/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">CVIT Lab</a> 
+  mentored by <a href="https://www.iiit.ac.in/faculty/jawahar-c-v/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">Prof. C.V. Jawahar</a>. 
+  Previously, I interned at <a href="https://www.iitm.ac.in/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">IIT Madras</a> 
+  in the <a href="https://www.ee.iitm.ac.in/comp_photolab/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">Computational Imaging Lab (CI Lab)</a> 
+  under the mentorship of <a href="https://www.ee.iitm.ac.in/kmitra/" target="_blank" rel="noopener noreferrer" class="text-light-primary dark:text-dark-primary hover:underline">Dr. Kaushik Mitra</a>. 
   I also achieved 3rd place in the NTIRE 2024 Blind Compressed Image Enhancement Challenge.`,
 
   interests: ["Artificial Intelligence", "Machine Learning", "Computer Vision"],

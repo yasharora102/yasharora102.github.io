@@ -84,12 +84,23 @@ const achievementsData = [
 
 const publicationsData = [
   {
+    title: "What is there in an Indian Thali?",
+    authors: "Y Arora, A Arun, CV Jawahar",
+    description: "ICVGIP 2025 (Dec 2025).",
+    imageUrl: "assets/food-scanner-logo.png",
+    alt: "Thali Publication",
+    links: [ { name: "Paper", icon: "file-text", url: "papers/icvgip2025-73.pdf" },
+      { name: "Project Page", icon: "link", url: "https://cvit.iiit.ac.in/research/projects/cvit-projects/indian_thali" }],
+  },
+  {
     title: "HealthGuard Al: Predictive Diagnosis and Smart Care Solutions",
     authors: "Y Arora, H Rohra, D Das, S Uppaluru, M Rashmi",
     description: "ICCCNT 2025 (Feb 2025).",
     imageUrl: "assets/healthguard_logo.png",
     alt: "HealthGuard AI Publication",
-    links: [{ name: "To be Updated", icon: "file-text", url: "#" }],
+    links: [ { name: "Paper", icon: "file-text", url: "papers/healthguard_AI.pdf" },
+      // { name: "To be Updated", icon: "file-text", url: "#" }
+    ],
   },
 ];
 
